@@ -1,0 +1,97 @@
+/* .body {
+  padding-top: 10px;
+}
+.item {
+  width: 100%;
+  text-decoration: none;
+  color: #333;
+  margin: 15px;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(202, 37, 16, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+.item:hover {
+  transform: scale(1.1);
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+p {
+  margin: 15px 0;
+  height: 100px;
+  overflow: hidden;
+  font-size: 16px;
+  padding: 5px 15px;
+}
+h4 {
+  height: 25px;
+  overflow: hidden;
+  padding: 5px 15px;
+  font-size: 18px;
+  background-color: #eee;
+  font-weight: 600;
+  margin-top: 10px;
+}
+span {
+  background-color: #f1b5b4;
+  padding: 3px 7px;
+  border-radius: 30px;
+} */
+
+.cartBox {
+  border: 1px solid #cdd;
+  border-radius: 5px;
+  padding: 0 20px;
+  margin: 50px 0;
+}
+table .quantity {
+  display: flex;
+  justify-content: space-between;
+}
+table .quantity input {
+  margin: 0 20px;
+  text-align: center;
+}
+table tbody {
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+table tbody tr td {
+  border-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+table tbody tr td img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.headCart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headCart span {
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.headCart span:hover {
+  background-color: pink;
+  color: white !important;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 120px;
+  min-height: 120px;
+}
+.modal img {
+  width: 100%;
+  max-height: 85px;
+}

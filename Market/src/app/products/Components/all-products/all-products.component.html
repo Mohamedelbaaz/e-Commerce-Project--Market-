@@ -1,0 +1,13 @@
+<div class="box mt-5">
+  <div class="my-2 w-25">
+    <app-select [data]="categoriesList" [title]="'Categories'" (selectedValue)="filterCategories($event)"></app-select>
+  </div>
+  <div class="row" *ngIf="!loader">
+    <div class="col-md-3 col-sm-12" *ngFor="let item of productList">
+      <app-shared-product [data]="item" (cartItem)="addToCart($event)"></app-shared-product>
+    </div>
+  </div>
+  <div class="text-center w-100" *ngIf="loader">
+    <app-spinner></app-spinner>
+  </div>
+</div>
